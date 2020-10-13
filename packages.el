@@ -11,3 +11,4 @@
 ; (package! lsp-java)
 ; (package! dap-python)
 (package! lsp-metals)
+; (package! minizinc-mode)

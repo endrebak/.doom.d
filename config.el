@@ -71,3 +71,8 @@
               :user "endrebak85@gmail.com")
       :subscribed-channels '((off-topic)))
      (slack-start))))
+
+
+;;; minizinc
+(load! "lisp/minizinc-mode.el")
+(add-to-list 'auto-mode-alist '("\\.mzn\\'" . minizinc-mode))
